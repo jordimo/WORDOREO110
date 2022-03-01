@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Pluto Cond';
+    src: url('PlutoCondBold.woff2') format('woff2'),
+        url('PlutoCondBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

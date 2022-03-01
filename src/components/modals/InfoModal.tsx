@@ -18,43 +18,43 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="W"
+          value="C"
           status="correct"
         />
-        <Cell value="E" status="absent" />
+        <Cell value="R" status="absent" />
+        <Cell value="E" status="absent"/>
         <Cell value="A" status="absent"/>
-        <Cell value="R" status="absent"/>
-        <Cell value="Y" status="absent"/>
+        <Cell value="M" status="absent"/>
       </div>
       <p className="text-sm text-white">
-        The letter W is in the word and in the correct spot.
+        The letter C is in the word and in the correct spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" status="absent" />
+        <Cell value="B" status="absent" />
         <Cell value="I" status="absent"/>
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="L"
+          value="T"
           status="present"
         />
-        <Cell value="O" status="absent"/>
-        <Cell value="T" status="absent"/>
+        <Cell value="E" status="absent"/>
+        <Cell value="S" status="absent"/>
       </div>
       <p className="text-sm text-white">
-        The letter L is in the word but in the wrong spot.
+        The letter T is in the word but in the wrong spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="V" />
+        <Cell value="S" />
+        <Cell value="N" />
         <Cell value="A" />
-        <Cell value="G" />
-        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
-        <Cell value="E" />
+        <Cell isRevealing={true} isCompleted={true} value="C" status="absent" />
+        <Cell value="K" />
       </div>
       <p className="text-sm text-white">
-        The letter U is not in the word in any spot.
+        The letter C is not in the word in any spot.
       </p>
 
       

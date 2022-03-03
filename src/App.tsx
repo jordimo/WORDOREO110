@@ -46,15 +46,13 @@ import { default as GraphemeSplitter } from 'grapheme-splitter'
 import './App.css'
 import { AlertContainer } from './components/alerts/AlertContainer'
 import { useAlert } from './context/AlertContext'
-import ReactGA from 'react-ga'
+import ReactGA from 'react-ga4'
 
 
-ReactGA.initialize('G-034PXM6NE7')
-  
 
 function App() {
-
-  ReactGA.pageview(window.location.pathname + window.location.search);
+  ReactGA.initialize('G-034PXM6NE7')
+  ReactGA.send("pageview")
 
   const prefersDarkMode = window.matchMedia(
     '(prefers-color-scheme: dark)'

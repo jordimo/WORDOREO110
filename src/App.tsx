@@ -50,6 +50,8 @@ import { useAlert } from './context/AlertContext'
 
 
 function App() {
+  const { gtag, install } = require("ga-gtag");
+
 
   const prefersDarkMode = window.matchMedia(
     '(prefers-color-scheme: dark)'
@@ -240,7 +242,7 @@ function App() {
       setCurrentGuess('')
 
       if (winningWord) {
-        
+        gtag('event', 'won', {guesses: guesses.length} )
         setStats(addStatsForCompletedGame(stats, guesses.length))
         return setIsGameWon(true)
       }

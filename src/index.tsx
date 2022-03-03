@@ -5,6 +5,7 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { AlertProvider } from './context/AlertContext'
 
+
 ReactDOM.render(
   <React.StrictMode>
     <AlertProvider>

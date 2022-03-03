@@ -242,7 +242,8 @@ function App() {
       setCurrentGuess('')
 
       if (winningWord) {
-        gtag('event', 'won', {guesses: guesses.length} )
+        alert(guesses.length+1)
+        gtag('event', 'won', {'guesses': guesses.length+1} )
         setStats(addStatsForCompletedGame(stats, guesses.length))
         return setIsGameWon(true)
       }

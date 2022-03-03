@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.efae23dd.css",
-    "main.js": "/static/js/main.bcca63fd.js",
+    "main.js": "/static/js/main.e4e906e2.js",
     "static/js/787.306ed7db.chunk.js": "/static/js/787.306ed7db.chunk.js",
     "static/media/PlutoCondBold.woff": "/static/media/PlutoCondBold.0003f149e6c513bfb16f.woff",
     "static/media/PlutoCondBold.woff2": "/static/media/PlutoCondBold.ab93d0cf3a805b162f4a.woff2",
     "index.html": "/index.html",
     "main.efae23dd.css.map": "/static/css/main.efae23dd.css.map",
-    "main.bcca63fd.js.map": "/static/js/main.bcca63fd.js.map",
+    "main.e4e906e2.js.map": "/static/js/main.e4e906e2.js.map",
     "787.306ed7db.chunk.js.map": "/static/js/787.306ed7db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.efae23dd.css",
-    "static/js/main.bcca63fd.js"
+    "static/js/main.e4e906e2.js"
   ]
 }

@@ -49,11 +49,11 @@ import { useAlert } from './context/AlertContext'
 import ReactGA from 'react-ga'
 
 
-
+ReactGA.initialize('G-034PXM6NE7')
+  
 
 function App() {
 
-  ReactGA.initialize('G-034PXM6NE7')
   ReactGA.pageview(window.location.pathname + window.location.search);
 
   const prefersDarkMode = window.matchMedia(
